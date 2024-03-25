@@ -1,5 +1,5 @@
 {
-  "name": "week1",
+  "name": "bootstrap",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,6 +7,7 @@
     "start": "lite-server --baseDir=\"public\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
