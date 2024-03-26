@@ -1,8 +1,43 @@
+/*SIDEBAR CSS */
 #sidebar {
-    background-color: #363740;
-    width: 300px;
-    height: 1100px;
-    color: #787a86;
+  background-color: #363740;
+  width: 300px;
+  height: 1100px;
+  color: #787a86;
+}
+
+#logo {
+  width: 32px;
+  height: 32px;
+}
+
+#sidebar h3 {
+  padding-top: 37px;
+  padding-left: 32px;
+}
+
+#sidebar .items {
+  margin-top: 40px;
+}
+
+#sidebar .items li {
+  list-style: none;
+  padding: 5px 10px;
+}
+
+#sidebar li i {
+    margin-right: 10px;
+    padding: 15px;
+}
+
+#sidebar li:hover {
+    background-color: #3e4049;
+}
+
+.line {
+    height: 1px;
+    background-color: #DFE0EB;
+    opacity: 0.06;
 }
 
 /*# sourceMappingURL=style.css.map */
