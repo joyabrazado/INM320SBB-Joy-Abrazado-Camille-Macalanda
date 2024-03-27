@@ -126,6 +126,7 @@ body {
 
 /* TRENDS CSS */
 #chart {
+  margin-top: 15px;
   display: flex;
   justify-content: center;
 }
@@ -149,6 +150,70 @@ body {
   font-weight: 500;
   color: #9FA2B4;
   ;
+}
+
+/* TIX AND TASKS CSS */
+#tix-and-tasks {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#unresolved-tix {
+  border: solid 1px #f2f2f7;
+  border-radius: 2%;
+  height: 320px;
+  width: 530px;
+  margin: 0 20px 0 0;
+}
+
+#ut-head {
+  margin: 30px 30px 5px;
+  display: flex;
+}
+
+#ut-head-group {
+  width: 50%;
+}
+
+#ut-head-group p {
+  font-size: 14px;
+}
+
+#view-details {
+  text-align: right;
+  width: 50%;
+}
+
+#view-details a {
+  text-decoration: none;
+  color: #3751FF;
+  font-size: 14px;
+}
+
+#unresolved-tix-table {
+  width: 100%;
+  margin: 0 20px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #252733;
+}
+
+td {
+  padding: 12px;
+}
+
+.td-col-1 {
+  text-align: left;
+}
+
+.td-col-2 {
+  color: #9FA2B4;
+}
+
+.divider {
+  height: 1px;
+  background-color: #DFE0EB;
 }
 
 /*# sourceMappingURL=style.css.map */
