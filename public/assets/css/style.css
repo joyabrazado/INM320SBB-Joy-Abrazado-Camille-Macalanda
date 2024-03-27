@@ -32,7 +32,12 @@
 
 #sidebar li:hover {
     background-color: #3e4049;
+    color: #DDE2FF;
 }
+
+/* .icons:hover {
+    color: #DDE2FF;
+} */
 
 .line {
     height: 1px;
