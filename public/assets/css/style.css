@@ -9,9 +9,10 @@
 #logo {
   width: 32px;
   height: 32px;
+  margin-right: 10px;
 }
 
-#sidebar h3 {
+#sidebar h4 {
   padding-top: 37px;
   padding-left: 32px;
 }
@@ -26,10 +27,12 @@
 }
 
 #sidebar li i {
-    margin-right: 10px;
+    margin-right: 12px;
     padding: 15px;
 }
 
+
+/* hover animation */
 #sidebar li:hover {
     background-color: #3e4049;
     color: #DDE2FF;
