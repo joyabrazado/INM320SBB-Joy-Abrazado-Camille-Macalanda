@@ -147,29 +147,79 @@
                   </div>
                 </div>
       
-                <table class="table table-sm" id="unresolved-tix-table">
+                <table id="unresolved-tix-table">
                   <tr>
-                    <td class="td-col-1">Waiting on Feature Request</td>
+                    <td class="td-col-1">   Waiting on Feature Request</td>
                     <td class="td-col-2">4,238</td>
                   </tr>
                   <tr>
-                    <td class="td-col-1">Awaiting Customer Response</td>
+                    <td class="td-col-1">   Awaiting Customer Response</td>
                     <td class="td-col-2">198</td>
                   </tr>
                   <tr>
-                    <td class="td-col-1">Awaiting Developer Fix</td>
+                    <td class="td-col-1">   Awaiting Developer Fix</td>
                     <td class="td-col-2">788</td>
                   </tr>
                   <tr>
-                    <td class="td-col-1">Pending</td>
+                    <td class="td-col-1">   Pending</td>
                     <td class="td-col-2">38</td>
                   </tr>
                 </table>
               </div>
+
             </div>
             <!-- tasks -->
-
-
+            <div id="tasks">
+                <div id="unresolved-tickets">
+                    <div id="ut-head">
+                    <div id="ut-head-group">
+                        <h4>Tasks</h4>
+                        <p><span style="color:#9FA2B4">Today</span></p>
+                    </div>
+        
+                    <div id="view-details">
+                        <a href="url">View all</a>
+                    </div>
+                    </div>
+        
+                    <table id="tasks-table">
+                    <tr>
+                        <td class="details-td-col-1"><span style="color:#9FA2B4">Create New Task</span></td>
+                        <td class="highlighted"><i class="fa-solid fa-square-plus fa-xl" style="color: #c8cbd0;"></i></i></td>
+                    </tr>
+        
+                    <tr>
+                        <td class="details-td-col-1">
+                        <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" span class="custom-checkbox" for="flexRadioDefault1">
+                            Finish Ticket Update
+                        </label>
+                        </td>
+                        <td class="highlighted-buttons"><span id="urgent" class="sample">URGENT</span></td>
+                    </tr>
+        
+                    <tr>
+                        <td class="details-td-col-1">
+                        <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" span class="custom-checkbox" for="flexRadioDefault1">
+                            Create New Ticket
+                        </label>
+                        </td>
+                        <td class="highlighted-buttons"><span id="new" class="sample">NEW</span></td>
+                    </tr>
+        
+                    <tr>
+                        <td class="details-td-col-1">
+                        <input class="form-check-input" type="checkbox" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" span class="custom-checkbox" for="flexRadioDefault1">
+                            Update Ticket Report
+                        </label>
+                        </td>
+                        <td class="highlighted-buttons"><span id="default" class="sample">DEFAULT</span></td>
+                    </tr>    
+                    </table>
+                </div>
+            </div>
         </div>
 
     </div>

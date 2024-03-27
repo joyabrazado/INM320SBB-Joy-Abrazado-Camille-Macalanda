@@ -193,10 +193,14 @@ body {
 
 #unresolved-tix-table {
   width: 100%;
-  /* margin: 0 20px; */
+  margin: 0 20px;
   font-size: 14px;
   font-weight: 500;
   color: #252733;
+}
+
+td {
+  padding: 10px;
 }
 
 .td-col-2 {
@@ -206,6 +210,52 @@ body {
 .divider {
   height: 1px;
   background-color: #DFE0EB;
+}
+
+#tasks {
+  border-radius: 2%;
+  border: solid 1px #f2f2f7;
+  height: 320px;
+  width: 530px;
+}
+
+#tasks-table {
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+.form-check-label {
+  padding-left: 15px;
+}
+
+.highlighted {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.highlighted-buttons {
+  width: 300px;
+  text-align: right;
+}
+
+.sample {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
+#urgent {
+  background-color: rgb(235, 181, 17);
+}
+
+#new {
+  background-color: rgb(3, 189, 47);
+}
+
+#default {
+  background-color: rgb(151, 150, 146);
 }
 
 /*# sourceMappingURL=style.css.map */
