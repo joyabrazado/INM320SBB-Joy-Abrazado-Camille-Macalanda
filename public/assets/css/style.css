@@ -247,15 +247,15 @@ td {
 }
 
 #urgent {
-  background-color: rgb(235, 181, 17);
+  background-color: #FEC400;
 }
 
 #new {
-  background-color: rgb(3, 189, 47);
+  background-color: #29CC97;
 }
 
 #default {
-  background-color: rgb(151, 150, 146);
+  background-color: #F0F1F7;
 }
 
 /*# sourceMappingURL=style.css.map */
