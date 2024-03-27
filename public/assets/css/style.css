@@ -1,3 +1,7 @@
+body {
+  background-color: #F7F8FC;
+}
+
 /*SIDEBAR CSS */
 #sidebar {
   background-color: #363740;
@@ -13,8 +17,8 @@
 }
 
 #sidebar h4 {
-  padding-top: 37px;
-  padding-left: 32px;
+  padding-top: 40px;
+  padding-left: 38px;
 }
 
 #sidebar .items {
@@ -48,4 +52,43 @@
     opacity: 0.06;
 }
 
+
+/* HEADER  */
+#header {
+  width: 80%;
+  padding: 10px;
+}
+
+#header h3 {
+  margin-left: 20px;
+}
+
+#header-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.v-line {
+  width: 1px;
+  height: 36px;
+  margin: 5px 20px;
+  align-content: center;
+  background-color: #DFE0EB;
+}
+
+.header-icons {
+  list-style: none;
+  display: flex;
+}
+
+.header-icons li {
+  padding: 10px;
+}
+
+#pfp {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=style.css.map */
